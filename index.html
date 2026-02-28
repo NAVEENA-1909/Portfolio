@@ -436,6 +436,152 @@ text-align:right;
 margin:0;
 }
 }
+
+/* ============================= */
+/* MOBILE & TABLET RESPONSIVE UI */
+/* ============================= */
+
+/* Tablet view */
+@media (max-width:1024px){
+
+  header h1{
+    font-size:2.6rem;
+  }
+
+  .hero-container{
+    gap:40px;
+  }
+
+  .hero-image img{
+    width:240px;
+    height:260px;
+  }
+
+}
+
+/* Mobile view */
+@media (max-width:768px){
+
+  /* NAVBAR */
+  nav{
+    flex-direction:column;
+    gap:10px;
+    padding:12px 5%;
+  }
+
+  nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+  }
+
+  nav h2{
+    font-size:22px;
+  }
+
+  /* HERO */
+  header{
+    padding-top:120px;
+  }
+
+  .hero-container{
+    flex-direction:column;
+    text-align:center;
+    gap:30px;
+  }
+
+  header h1{
+    font-size:2.1rem;
+  }
+
+  header p{
+    font-size:15px;
+  }
+
+  .hero-buttons{
+    justify-content:center;
+  }
+
+  .hero-btn{
+    padding:12px 26px;
+    font-size:14px;
+  }
+
+  .hero-image img{
+    width:180px;
+    height:180px;
+  }
+
+  /* SECTIONS */
+  section{
+    padding:70px 6%;
+  }
+
+  h2{
+    font-size:1.8rem;
+  }
+
+  /* GRID */
+  .grid{
+    grid-template-columns:1fr;
+  }
+
+  /* SKILLS */
+  .card{
+    padding:22px;
+  }
+
+  /* INTERNSHIP */
+  .intern-card{
+    padding:20px;
+  }
+
+  /* CERTIFICATIONS */
+  .cert-card{
+    padding:18px;
+  }
+
+  /* CONTACT */
+  .contact-card{
+    padding:25px 18px;
+  }
+
+  .contact-item{
+    flex-direction:column;
+    gap:5px;
+  }
+
+  .social-buttons{
+    gap:12px;
+  }
+
+}
+
+/* Small mobile */
+@media (max-width:480px){
+
+  header h1{
+    font-size:1.7rem;
+  }
+
+  nav ul{
+    gap:8px;
+  }
+
+  nav a{
+    font-size:13px;
+  }
+
+  .hero-btn{
+    width:100%;
+  }
+
+  .social-buttons a{
+    width:100%;
+    text-align:center;
+  }
+
+}
 </style>
 </head>
 <body>
@@ -637,3 +783,4 @@ typeEffect();
 </body>
 
 </html>
+
